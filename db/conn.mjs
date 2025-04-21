@@ -1,9 +1,9 @@
-
+import { MongoClient } from "mongodb";
 import dotenv from "dotenv";
 
 dotenv.config();
 
-const connectionStr = process.env.mongoURI;
+const connectionStr = process.env.mongoURI || "";
 
 let client = new MongoClient(connectionStr);
 
