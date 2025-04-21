@@ -7,4 +7,7 @@
 5. create and populate .gitignore
 6. server.mjs boilerplate
 7. connect to DB boilerplate
-        -
+  - Import MongoClient & dotenv
+  - create connStr var
+  - try catch connect
+  -
